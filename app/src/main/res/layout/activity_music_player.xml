@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#32322d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.8"
+            android:onClick="onClickSearchPrevOne"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="#f29d5c"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:onClick="onClickSearchPrevOne"
+                android:background="@drawable/leftx1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#f29d5c"
+            android:orientation="vertical"
+            android:onClick="onClickPlayMusic">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/playpause2"
+                android:onClick="onClickPlayMusic"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickPlayMusic"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="재생 / 일시정지"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.8"
+            android:gravity="center"
+            android:onClick="onClickSearchNextOne"
+            android:layout_marginBottom="8dp"
+            android:background="#f29d5c"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:onClick="onClickSearchNextOne"
+                android:background="@drawable/rightx12"
+                android:id="@+id/imageView3" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.8"
+            android:gravity="center"
+            android:onClick="onClickSearchPrevFour"
+            android:layout_marginBottom="8dp"
+            android:background="#f2655b"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:onClick="onClickSearchPrevFour"
+                android:background="@drawable/leftx4"
+                android:id="@+id/imageView6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onClickRepeatMusic"
+            android:background="#f2655b"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/repeat"
+                android:id="@+id/imageView5"
+                android:onClick="onClickRepeatMusic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:onClick="onClickRepeatMusic"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="구간반복"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.8"
+            android:onClick="onClickSearchNextFour"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="#f2655b"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:onClick="onClickSearchNextFour"
+                android:background="@drawable/rightx4"
+                android:id="@+id/imageView4" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_height="match_parent"
+            android:onClick="onClickSpeedDown"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#44cce2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSpeedDown"
+                android:paddingBottom="5dp"
+                android:textColor="#ffff"
+                android:textSize="100sp"
+                android:text="--"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClickSpeedReset"
+            android:background="#44cce2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSpeedReset"
+                android:paddingTop="8dp"
+                android:textColor="#ffff"
+                android:textSize="50sp"
+                android:text="0.0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/MusicSpeedUp"
+            android:background="#44cce2"
+            android:onClick="onClickSpeedUp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSpeedUp"
+                android:paddingTop="8dp"
+                android:textColor="#ffff"
+                android:textSize="60sp"
+                android:text="++"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

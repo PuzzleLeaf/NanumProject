@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "413658633704",
+    "firebase_url": "https://puzzleleaf-26170.firebaseio.com",
+    "project_id": "puzzleleaf-26170",
+    "storage_bucket": "puzzleleaf-26170.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413658633704:android:933b3d1b265efc5f",
+        "android_client_info": {
+          "package_name": "com.puzzleleaf.nanum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413658633704-22rs60a9b4bdcianle0ob73fbv8u5od7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puzzleleaf.nanum",
+            "certificate_hash": "9F6D2220BE360C3E81178F773176D50A62506BA1"
+          }
+        },
+        {
+          "client_id": "413658633704-gf4c4kv0452cd4urq6vhdr1a9m41l48j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5BA8YnQIMsBv1RCt3YWC_zV_3sRFuuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413658633704-gf4c4kv0452cd4urq6vhdr1a9m41l48j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
